@@ -1,0 +1,30 @@
+name: notch_sclc_env
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - python=3.7.6
+  - jupyter=1.0.0
+  - seaborn
+  - anndata
+  - jupyterlab
+  - leidenalg
+  - matplotlib
+  - pandas
+  - umap-learn
+  - graph-tool
+  - numpy
+  - scipy
+  - cython
+  - numba
+  - scikit-learn
+  - h5py
+  - click
+  - cellrank
+  - python-annoy
+  - pip:
+    - scanorama 
+    - scrublet
+    - magic-impute
+
+#scanpy and scvelo are installed with cellrank
